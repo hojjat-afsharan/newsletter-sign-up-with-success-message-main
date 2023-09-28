@@ -1,3 +1,4 @@
+import SignupForm from "../../components/signup-form";
 import Styles from "./page.module.scss";
 import Image from "next/image";
 
@@ -5,7 +6,9 @@ export default function SignupPage() {
   return (
     <div className={Styles.card}>
       <div className={Styles["card-inner"]}>
-        <div>form</div>
+        <div>
+          <SignupForm />
+        </div>
         <div>
           <Image
             src="images/illustration-sign-up-desktop.svg"

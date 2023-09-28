@@ -5,6 +5,15 @@
   font-display: swap;
   src: local("Roboto"), url(/fonts/Roboto-Regular.ttf) format("ttf");
 }
+
+@font-face {
+  font-family: "Roboto-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Roboto"), url(/fonts/Roboto-Bold.ttf) format("ttf");
+}
+
 html {
   height: 100%;
 }
@@ -13,4 +22,6 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
+  font-size: 12px;
+  font-weight: 500;
 }
