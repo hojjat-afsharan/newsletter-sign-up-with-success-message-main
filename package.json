@@ -1,0 +1,22 @@
+{
+  "name": "newsletter-sign-up-with-success-message-main",
+  "version": "1.0.0",
+  "description": "practice pixel perfect design",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hojjat.afsharan",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^13.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.7.1",
+    "@types/react": "18.2.23",
+    "typescript": "5.2.2"
+  }
+}
