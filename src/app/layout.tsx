@@ -1,4 +1,5 @@
 import "../../styles/global.css";
+import styles from "./page.module.scss";
 
 export const metadata = {
   title: "Newsletter sign up",
@@ -13,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main>{children}</main>
+        <main className={styles.red}> {children}</main>
       </body>
     </html>
   );
