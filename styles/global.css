@@ -5,7 +5,12 @@
   font-display: swap;
   src: local("Roboto"), url(/fonts/Roboto-Regular.ttf) format("ttf");
 }
-
+html {
+  height: 100%;
+}
 body {
   font-family: "Roboto", sans-serif;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
 }
